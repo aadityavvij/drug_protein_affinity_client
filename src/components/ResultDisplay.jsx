@@ -3,7 +3,7 @@ import React from "react";
 const ResultDisplay = ({ result }) => {
   return (
     <div>
-      <h2>Prediction Result</h2>
+      <h1>Prediction Result</h1>
       {result !== null ? (
         <p>The predicted affinity is: <strong>{result.toFixed(4)}</strong></p>
       ) : (
